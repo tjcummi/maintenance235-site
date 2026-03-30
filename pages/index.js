@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, ShieldCheck, Database, Wrench, CalendarClock, FileSearch, BarChart3, CheckCircle2, Building2, Zap, CircleDot } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardContent, Button } from '../components/ui/basic';
 
 const navItems = ['Platform', 'Use Cases', 'Data', 'Insights', 'Contact'];
 
