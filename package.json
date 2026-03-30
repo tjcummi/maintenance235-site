@@ -12,6 +12,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "framer-motion": "^11.0.0",
-    "lucide-react": "^0.468.0"
+    "lucide-react": "^0.468.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0"
   }
 }
