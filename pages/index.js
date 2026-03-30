@@ -119,10 +119,11 @@ export default function NuclearMaintenanceHomepage() {
               </p>
 
               <div className="mt-10 flex flex-wrap gap-4">
-                <Button size="lg" className="rounded-full bg-cyan-300 px-7 text-slate-950 hover:bg-cyan-200">
-                  Explore the Platform
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
+                <a href="/dashboard">
+                  <Button className="rounded-full bg-cyan-300 px-7 text-slate-950 hover:bg-cyan-200">
+                    Explore the Platform
+                  </Button>
+                </a>
                 <Button size="lg" variant="outline" className="rounded-full border-white/20 bg-white/5 px-7 text-white hover:bg-white/10">
                   View Use Cases
                 </Button>
