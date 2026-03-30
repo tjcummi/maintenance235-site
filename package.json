@@ -2,15 +2,16 @@
   "name": "maintenance235",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "framer-motion": "latest",
-    "lucide-react": "latest"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest"
   }
 }
